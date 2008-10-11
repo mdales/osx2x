@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelPanel = id; 
+                connect = id; 
+                connectPanel = id; 
+                connectionHostChange = id; 
+                connectionTypeChange = id; 
+                copyFromX = id; 
+                disableAutoReconnect = id; 
+                disconnect = id; 
+                enableAutoReconnect = id; 
+                hostSelectionChange = id; 
+                pasteFromX = id; 
+                preferences = id; 
+                sendControlAltDelete = id; 
+                toggleLock = id; 
+                toggleWithoutMouse = id; 
+            }; 
+            CLASS = XXController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                connectButton = id; 
+                copyMenu = id; 
+                disableAutoMenu = id; 
+                disconnectButton = id; 
+                disconnectMenu = id; 
+                enableAutoMenu = id; 
+                hostnameList = id; 
+                panel = id; 
+                panelAutoreconnectBox = id; 
+                panelConnectionList = id; 
+                panelHostnameList = id; 
+                panelPasswordBox = id; 
+                panelPasswordText = id; 
+                panelPositionList = id; 
+                panelUsernameBox = id; 
+                panelUsernameText = id; 
+                pasteMenu = id; 
+                toggleMenu = id; 
+                xxView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = XXView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

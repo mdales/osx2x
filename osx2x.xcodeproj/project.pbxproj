@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8D41294A0BFB69C500396206 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D4129490BFB69C500396206 /* Info.plist */; };
+		8D4129770BFB6AC400396206 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4129570BFB6AC400396206 /* Credits.rtf */; };
+		8D4129790BFB6AC400396206 /* keymap-de.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129590BFB6AC400396206 /* keymap-de.c */; };
+		8D41297A0BFB6AC400396206 /* keymap.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D41295A0BFB6AC400396206 /* keymap.c */; };
+		8D41297B0BFB6AC400396206 /* XXApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D41295E0BFB6AC400396206 /* XXApplication.m */; };
+		8D41297C0BFB6AC400396206 /* XXArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129600BFB6AC400396206 /* XXArrowView.m */; };
+		8D41297D0BFB6AC400396206 /* XXArrowWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129620BFB6AC400396206 /* XXArrowWindow.m */; };
+		8D41297E0BFB6AC400396206 /* XXAutoConnectBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129640BFB6AC400396206 /* XXAutoConnectBag.m */; };
+		8D41297F0BFB6AC400396206 /* XXConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129660BFB6AC400396206 /* XXConnection.m */; };
+		8D4129800BFB6AC400396206 /* XXConnectionBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129680BFB6AC400396206 /* XXConnectionBag.m */; };
+		8D4129810BFB6AC400396206 /* XXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D41296A0BFB6AC400396206 /* XXController.m */; };
+		8D4129820BFB6AC400396206 /* XXPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D41296C0BFB6AC400396206 /* XXPrefsWindowController.m */; };
+		8D4129830BFB6AC400396206 /* XXRemoteVNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D41296E0BFB6AC400396206 /* XXRemoteVNC.m */; };
+		8D4129840BFB6AC400396206 /* XXRemoteX11Daemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129700BFB6AC400396206 /* XXRemoteX11Daemon.m */; };
+		8D4129850BFB6AC400396206 /* XXRemoteXWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129720BFB6AC400396206 /* XXRemoteXWindows.m */; };
+		8D4129860BFB6AC400396206 /* XXTransparentWin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129740BFB6AC400396206 /* XXTransparentWin.m */; };
+		8D4129870BFB6AC400396206 /* XXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129760BFB6AC400396206 /* XXView.m */; };
+		8D4129930BFB6B1800396206 /* xcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129910BFB6B1800396206 /* xcode.c */; };
+		8D41299D0BFB6B6500396206 /* libcrypto.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */; };
+		8D41299F0BFB6B7F00396206 /* libssl.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */; };
+		8D4129A50BFB6BCE00396206 /* libX11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129A40BFB6BCE00396206 /* libX11.dylib */; };
+		8D4129AB0BFB6C2000396206 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129AA0BFB6C2000396206 /* Security.framework */; };
+		8D4129AF0BFB6C7600396206 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129AE0BFB6C7600396206 /* Carbon.framework */; };
+		8D5D33FD0BFB6E2E000F47D5 /* osx2x.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D33FC0BFB6E2E000F47D5 /* osx2x.icns */; };
+		8D5D34160BFB6EBC000F47D5 /* osx2xhelp in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D340D0BFB6EBC000F47D5 /* osx2xhelp */; };
+		8DA138D60CE8943E00D13CE8 /* libXtst.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA138D50CE8943E00D13CE8 /* libXtst.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osx2x_Prefix.pch; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* osx2x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osx2x.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4129490BFB69C500396206 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4129570BFB6AC400396206 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = SOURCE_ROOT; };
+		8D4129590BFB6AC400396206 /* keymap-de.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "keymap-de.c"; sourceTree = "<group>"; };
+		8D41295A0BFB6AC400396206 /* keymap.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = keymap.c; sourceTree = "<group>"; };
+		8D41295B0BFB6AC400396206 /* keymap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = keymap.h; sourceTree = "<group>"; };
+		8D41295C0BFB6AC400396206 /* XXAbstractRemote.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXAbstractRemote.h; sourceTree = "<group>"; };
+		8D41295D0BFB6AC400396206 /* XXApplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXApplication.h; sourceTree = "<group>"; };
+		8D41295E0BFB6AC400396206 /* XXApplication.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXApplication.m; sourceTree = "<group>"; };
+		8D41295F0BFB6AC400396206 /* XXArrowView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXArrowView.h; sourceTree = "<group>"; };
+		8D4129600BFB6AC400396206 /* XXArrowView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXArrowView.m; sourceTree = "<group>"; };
+		8D4129610BFB6AC400396206 /* XXArrowWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXArrowWindow.h; sourceTree = "<group>"; };
+		8D4129620BFB6AC400396206 /* XXArrowWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXArrowWindow.m; sourceTree = "<group>"; };
+		8D4129630BFB6AC400396206 /* XXAutoConnectBag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXAutoConnectBag.h; sourceTree = "<group>"; };
+		8D4129640BFB6AC400396206 /* XXAutoConnectBag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXAutoConnectBag.m; sourceTree = "<group>"; };
+		8D4129650BFB6AC400396206 /* XXConnection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXConnection.h; sourceTree = "<group>"; };
+		8D4129660BFB6AC400396206 /* XXConnection.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXConnection.m; sourceTree = "<group>"; };
+		8D4129670BFB6AC400396206 /* XXConnectionBag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXConnectionBag.h; sourceTree = "<group>"; };
+		8D4129680BFB6AC400396206 /* XXConnectionBag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXConnectionBag.m; sourceTree = "<group>"; };
+		8D4129690BFB6AC400396206 /* XXController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXController.h; sourceTree = "<group>"; };
+		8D41296A0BFB6AC400396206 /* XXController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXController.m; sourceTree = "<group>"; };
+		8D41296B0BFB6AC400396206 /* XXPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXPrefsWindowController.h; sourceTree = "<group>"; };
+		8D41296C0BFB6AC400396206 /* XXPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXPrefsWindowController.m; sourceTree = "<group>"; };
+		8D41296D0BFB6AC400396206 /* XXRemoteVNC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXRemoteVNC.h; sourceTree = "<group>"; };
+		8D41296E0BFB6AC400396206 /* XXRemoteVNC.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXRemoteVNC.m; sourceTree = "<group>"; };
+		8D41296F0BFB6AC400396206 /* XXRemoteX11Daemon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXRemoteX11Daemon.h; sourceTree = "<group>"; };
+		8D4129700BFB6AC400396206 /* XXRemoteX11Daemon.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXRemoteX11Daemon.m; sourceTree = "<group>"; };
+		8D4129710BFB6AC400396206 /* XXRemoteXWindows.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXRemoteXWindows.h; sourceTree = "<group>"; };
+		8D4129720BFB6AC400396206 /* XXRemoteXWindows.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXRemoteXWindows.m; sourceTree = "<group>"; };
+		8D4129730BFB6AC400396206 /* XXTransparentWin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXTransparentWin.h; sourceTree = "<group>"; };
+		8D4129740BFB6AC400396206 /* XXTransparentWin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXTransparentWin.m; sourceTree = "<group>"; };
+		8D4129750BFB6AC400396206 /* XXView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XXView.h; sourceTree = "<group>"; };
+		8D4129760BFB6AC400396206 /* XXView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXView.m; sourceTree = "<group>"; };
+		8D4129910BFB6B1800396206 /* xcode.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = xcode.c; sourceTree = "<group>"; };
+		8D4129920BFB6B1800396206 /* xcode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xcode.h; sourceTree = "<group>"; };
+		8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.dylib; path = /usr/lib/libcrypto.0.9.dylib; sourceTree = "<absolute>"; };
+		8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.0.9.dylib; path = /usr/lib/libssl.0.9.dylib; sourceTree = "<absolute>"; };
+		8D4129A40BFB6BCE00396206 /* libX11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libX11.dylib; path = /usr/X11R6/lib/libX11.dylib; sourceTree = "<absolute>"; };
+		8D4129AA0BFB6C2000396206 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		8D4129AE0BFB6C7600396206 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D5D33FC0BFB6E2E000F47D5 /* osx2x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = osx2x.icns; sourceTree = SOURCE_ROOT; };
+		8D5D340D0BFB6EBC000F47D5 /* osx2xhelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osx2xhelp; sourceTree = SOURCE_ROOT; };
+		8DA138D50CE8943E00D13CE8 /* libXtst.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXtst.dylib; path = /usr/X11/lib/libXtst.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8D41299D0BFB6B6500396206 /* libcrypto.0.9.dylib in Frameworks */,
+				8D41299F0BFB6B7F00396206 /* libssl.0.9.dylib in Frameworks */,
+				8D4129A50BFB6BCE00396206 /* libX11.dylib in Frameworks */,
+				8D4129AB0BFB6C2000396206 /* Security.framework in Frameworks */,
+				8D4129AF0BFB6C7600396206 /* Carbon.framework in Frameworks */,
+				8DA138D60CE8943E00D13CE8 /* libXtst.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D41295C0BFB6AC400396206 /* XXAbstractRemote.h */,
+				8D41295D0BFB6AC400396206 /* XXApplication.h */,
+				8D41295E0BFB6AC400396206 /* XXApplication.m */,
+				8D41295F0BFB6AC400396206 /* XXArrowView.h */,
+				8D4129600BFB6AC400396206 /* XXArrowView.m */,
+				8D4129610BFB6AC400396206 /* XXArrowWindow.h */,
+				8D4129620BFB6AC400396206 /* XXArrowWindow.m */,
+				8D4129630BFB6AC400396206 /* XXAutoConnectBag.h */,
+				8D4129640BFB6AC400396206 /* XXAutoConnectBag.m */,
+				8D4129650BFB6AC400396206 /* XXConnection.h */,
+				8D4129660BFB6AC400396206 /* XXConnection.m */,
+				8D4129670BFB6AC400396206 /* XXConnectionBag.h */,
+				8D4129680BFB6AC400396206 /* XXConnectionBag.m */,
+				8D4129690BFB6AC400396206 /* XXController.h */,
+				8D5D340D0BFB6EBC000F47D5 /* osx2xhelp */,
+				8D41296A0BFB6AC400396206 /* XXController.m */,
+				8D41296B0BFB6AC400396206 /* XXPrefsWindowController.h */,
+				8D41296C0BFB6AC400396206 /* XXPrefsWindowController.m */,
+				8D41296D0BFB6AC400396206 /* XXRemoteVNC.h */,
+				8D41296E0BFB6AC400396206 /* XXRemoteVNC.m */,
+				8D41296F0BFB6AC400396206 /* XXRemoteX11Daemon.h */,
+				8D4129700BFB6AC400396206 /* XXRemoteX11Daemon.m */,
+				8D4129710BFB6AC400396206 /* XXRemoteXWindows.h */,
+				8D4129720BFB6AC400396206 /* XXRemoteXWindows.m */,
+				8D4129730BFB6AC400396206 /* XXTransparentWin.h */,
+				8D4129740BFB6AC400396206 /* XXTransparentWin.m */,
+				8D4129750BFB6AC400396206 /* XXView.h */,
+				8D4129760BFB6AC400396206 /* XXView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* osx2x.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* osx2x */ = {
+			isa = PBXGroup;
+			children = (
+				8D4129570BFB6AC400396206 /* Credits.rtf */,
+				8D4129AE0BFB6C7600396206 /* Carbon.framework */,
+				8D4129AA0BFB6C2000396206 /* Security.framework */,
+				8D4129A40BFB6BCE00396206 /* libX11.dylib */,
+				8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */,
+				8DA138D50CE8943E00D13CE8 /* libXtst.dylib */,
+				8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */,
+				8D4129490BFB69C500396206 /* Info.plist */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = osx2x;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D4129590BFB6AC400396206 /* keymap-de.c */,
+				8D41295A0BFB6AC400396206 /* keymap.c */,
+				8D41295B0BFB6AC400396206 /* keymap.h */,
+				8D4129910BFB6B1800396206 /* xcode.c */,
+				8D4129920BFB6B1800396206 /* xcode.h */,
+				32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D33ED0BFB6DB4000F47D5 /* osx2xhelp */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5D33ED0BFB6DB4000F47D5 /* osx2xhelp */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D33EF0BFB6DB4000F47D5 /* images */,
+			);
+			path = osx2xhelp;
+			sourceTree = SOURCE_ROOT;
+		};
+		8D5D33EF0BFB6DB4000F47D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D33FC0BFB6E2E000F47D5 /* osx2x.icns */,
+			);
+			name = images;
+			path = osx2xhelp/images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* osx2x */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "osx2x" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osx2x;
+			productInstallPath = "$(HOME)/Applications";
+			productName = osx2x;
+			productReference = 8D1107320486CEB800E47090 /* osx2x.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "osx2x" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* osx2x */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* osx2x */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8D41294A0BFB69C500396206 /* Info.plist in Resources */,
+				8D4129770BFB6AC400396206 /* Credits.rtf in Resources */,
+				8D5D33FD0BFB6E2E000F47D5 /* osx2x.icns in Resources */,
+				8D5D34160BFB6EBC000F47D5 /* osx2xhelp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8D4129790BFB6AC400396206 /* keymap-de.c in Sources */,
+				8D41297A0BFB6AC400396206 /* keymap.c in Sources */,
+				8D41297B0BFB6AC400396206 /* XXApplication.m in Sources */,
+				8D41297C0BFB6AC400396206 /* XXArrowView.m in Sources */,
+				8D41297D0BFB6AC400396206 /* XXArrowWindow.m in Sources */,
+				8D41297E0BFB6AC400396206 /* XXAutoConnectBag.m in Sources */,
+				8D41297F0BFB6AC400396206 /* XXConnection.m in Sources */,
+				8D4129800BFB6AC400396206 /* XXConnectionBag.m in Sources */,
+				8D4129810BFB6AC400396206 /* XXController.m in Sources */,
+				8D4129820BFB6AC400396206 /* XXPrefsWindowController.m in Sources */,
+				8D4129830BFB6AC400396206 /* XXRemoteVNC.m in Sources */,
+				8D4129840BFB6AC400396206 /* XXRemoteX11Daemon.m in Sources */,
+				8D4129850BFB6AC400396206 /* XXRemoteXWindows.m in Sources */,
+				8D4129860BFB6AC400396206 /* XXTransparentWin.m in Sources */,
+				8D4129870BFB6AC400396206 /* XXView.m in Sources */,
+				8D4129930BFB6B1800396206 /* xcode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11R6/lib,
+					/usr/X11/lib,
+				);
+				PRODUCT_NAME = osx2x;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/X11R6/lib,
+					/usr/X11/lib,
+				);
+				PRODUCT_NAME = osx2x;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "osx2x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "osx2x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

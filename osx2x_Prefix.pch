@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'osx2x' target in the 'osx2x' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
