@@ -251,7 +251,7 @@
 			memset(key, 0, 8);
 			int i, bit;
 			for(i = 0; i < 8; ++i) {
-				unsigned char c = [password cString][i];
+				unsigned char c = [password cStringUsingEncoding: NSASCIIStringEncoding][i];
 				if(!c)
 					break;
 
@@ -261,10 +261,10 @@
 			}
 				
 			des_key_schedule sched;
-			des_set_key_unchecked(&key, &sched);
+			DES_set_key_unchecked(&key, &sched);
 			des_cblock *c;
-			c = (des_cblock*)(challenge);   des_ecb_encrypt(c, c, &sched, DES_ENCRYPT);
-			c = (des_cblock*)(challenge+8); des_ecb_encrypt(c, c, &sched, DES_ENCRYPT);
+			c = (des_cblock*)(challenge);   DES_ecb_encrypt(c, c, &sched, DES_ENCRYPT);
+			c = (des_cblock*)(challenge+8); DES_ecb_encrypt(c, c, &sched, DES_ENCRYPT);
 
 			[self send:challenge length:16];
 		

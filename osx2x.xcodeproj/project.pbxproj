@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C04E0EA0F5AF46E00CE8FD6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */; };
+		4C46398F0F567BE500A46BB2 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C46398E0F567BE500A46BB2 /* libssl.dylib */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -29,8 +31,6 @@
 		8D4129860BFB6AC400396206 /* XXTransparentWin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129740BFB6AC400396206 /* XXTransparentWin.m */; };
 		8D4129870BFB6AC400396206 /* XXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129760BFB6AC400396206 /* XXView.m */; };
 		8D4129930BFB6B1800396206 /* xcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4129910BFB6B1800396206 /* xcode.c */; };
-		8D41299D0BFB6B6500396206 /* libcrypto.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */; };
-		8D41299F0BFB6B7F00396206 /* libssl.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */; };
 		8D4129A50BFB6BCE00396206 /* libX11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129A40BFB6BCE00396206 /* libX11.dylib */; };
 		8D4129AB0BFB6C2000396206 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129AA0BFB6C2000396206 /* Security.framework */; };
 		8D4129AF0BFB6C7600396206 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4129AE0BFB6C7600396206 /* Carbon.framework */; };
@@ -48,6 +48,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osx2x_Prefix.pch; sourceTree = "<group>"; };
+		4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
+		4C46398E0F567BE500A46BB2 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = /usr/lib/libssl.dylib; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* osx2x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osx2x.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4129490BFB69C500396206 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4129570BFB6AC400396206 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = SOURCE_ROOT; };
@@ -83,8 +85,6 @@
 		8D4129760BFB6AC400396206 /* XXView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XXView.m; sourceTree = "<group>"; };
 		8D4129910BFB6B1800396206 /* xcode.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = xcode.c; sourceTree = "<group>"; };
 		8D4129920BFB6B1800396206 /* xcode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xcode.h; sourceTree = "<group>"; };
-		8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.dylib; path = /usr/lib/libcrypto.0.9.dylib; sourceTree = "<absolute>"; };
-		8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.0.9.dylib; path = /usr/lib/libssl.0.9.dylib; sourceTree = "<absolute>"; };
 		8D4129A40BFB6BCE00396206 /* libX11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libX11.dylib; path = /usr/X11R6/lib/libX11.dylib; sourceTree = "<absolute>"; };
 		8D4129AA0BFB6C2000396206 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		8D4129AE0BFB6C7600396206 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
@@ -99,12 +99,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				8D41299D0BFB6B6500396206 /* libcrypto.0.9.dylib in Frameworks */,
-				8D41299F0BFB6B7F00396206 /* libssl.0.9.dylib in Frameworks */,
 				8D4129A50BFB6BCE00396206 /* libX11.dylib in Frameworks */,
 				8D4129AB0BFB6C2000396206 /* Security.framework in Frameworks */,
 				8D4129AF0BFB6C7600396206 /* Carbon.framework in Frameworks */,
 				8DA138D60CE8943E00D13CE8 /* libXtst.dylib in Frameworks */,
+				4C46398F0F567BE500A46BB2 /* libssl.dylib in Frameworks */,
+				4C04E0EA0F5AF46E00CE8FD6 /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +157,8 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */,
+				8D4129AA0BFB6C2000396206 /* Security.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
@@ -177,11 +179,8 @@
 			children = (
 				8D4129570BFB6AC400396206 /* Credits.rtf */,
 				8D4129AE0BFB6C7600396206 /* Carbon.framework */,
-				8D4129AA0BFB6C2000396206 /* Security.framework */,
 				8D4129A40BFB6BCE00396206 /* libX11.dylib */,
-				8D41299E0BFB6B7F00396206 /* libssl.0.9.dylib */,
 				8DA138D50CE8943E00D13CE8 /* libXtst.dylib */,
-				8D41299C0BFB6B6500396206 /* libcrypto.0.9.dylib */,
 				8D4129490BFB69C500396206 /* Info.plist */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -201,6 +200,7 @@
 				8D4129910BFB6B1800396206 /* xcode.c */,
 				8D4129920BFB6B1800396206 /* xcode.h */,
 				32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */,
+				4C46398E0F567BE500A46BB2 /* libssl.dylib */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
