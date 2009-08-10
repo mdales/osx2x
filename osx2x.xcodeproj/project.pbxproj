@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C04E0EA0F5AF46E00CE8FD6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */; };
+		4C3CBC8A1030BD1E00B55A3E /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CBC881030BD1E00B55A3E /* Preferences.nib */; };
 		4C46398F0F567BE500A46BB2 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C46398E0F567BE500A46BB2 /* libssl.dylib */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -49,6 +50,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osx2x_Prefix.pch; sourceTree = "<group>"; };
 		4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
+		4C3CBC891030BD1E00B55A3E /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
 		4C46398E0F567BE500A46BB2 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = /usr/lib/libssl.dylib; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* osx2x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osx2x.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4129490BFB69C500396206 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4C3CBC881030BD1E00B55A3E /* Preferences.nib */,
 				8D5D33ED0BFB6DB4000F47D5 /* osx2xhelp */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -291,6 +294,7 @@
 				8D4129770BFB6AC400396206 /* Credits.rtf in Resources */,
 				8D5D33FD0BFB6E2E000F47D5 /* osx2x.icns in Resources */,
 				8D5D34160BFB6EBC000F47D5 /* osx2xhelp in Resources */,
+				4C3CBC8A1030BD1E00B55A3E /* Preferences.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +342,14 @@
 				29B97319FDCFA39411CA2CEA /* English */,
 			);
 			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		4C3CBC881030BD1E00B55A3E /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3CBC891030BD1E00B55A3E /* English */,
+			);
+			name = Preferences.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

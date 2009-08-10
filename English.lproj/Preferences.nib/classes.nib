@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {autoHostListSelect = id; removeHost = id; valuesChanged = id; }; 
+            CLASS = XXPrefsWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                arrowTransSlider = id; 
+                autoHostList = id; 
+                colorSelector = id; 
+                disableScrollCB = id; 
+                emulateButtonsCB = id; 
+                hcBottomLeftCB = id; 
+                hcBottomRightCB = id; 
+                hcTopLeftCB = id; 
+                hcTopRightCB = id; 
+                hideWindowCB = id; 
+                mapList = id; 
+                middleButtonRB = id; 
+                middleClickCB = id; 
+                removeButton = id; 
+                rightButtonRB = id; 
+                useKeychainCB = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
