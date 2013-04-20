@@ -16,7 +16,7 @@
 #define SOUTH NSLocalizedStringFromTable(@"South", @"osx2x", "Connection direction")
 
 static const NSString* connectionNames[3] = {@"X11", @"VNC", @"Daemon"};
-static NSString* positionNames[5];
+static NSString* positionNames[5];  
 
 @implementation XXAutoConnectBag
 
@@ -82,13 +82,14 @@ static NSString* positionNames[5];
         return;
     
     // Move everything up
-    for (i = index; i < 5; i++)
+    for (i = index; i < 4; i++)
     {
         names[i] = names[i+1];
         positions[i] = positions[i+1];
         types[i] = types[i+1];
     }
-    names[5] = nil;
+    names[4] = nil;  // whichever line we delete, the last one will
+                     // end up blank.
     
     size--;
 }
