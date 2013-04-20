@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465CE66A172323A800E2C599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 465CE669172323A800E2C599 /* README.md */; };
 		4C04E0EA0F5AF46E00CE8FD6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */; };
 		4C3CBC8A1030BD1E00B55A3E /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CBC881030BD1E00B55A3E /* Preferences.nib */; };
 		4C46398F0F567BE500A46BB2 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C46398E0F567BE500A46BB2 /* libssl.dylib */; };
@@ -49,6 +50,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* osx2x_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osx2x_Prefix.pch; sourceTree = "<group>"; };
+		465CE669172323A800E2C599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4C04E0E90F5AF46E00CE8FD6 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
 		4C3CBC891030BD1E00B55A3E /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
 		4C46398E0F567BE500A46BB2 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = /usr/lib/libssl.dylib; sourceTree = "<absolute>"; };
@@ -179,6 +181,7 @@
 		29B97314FDCFA39411CA2CEA /* osx2x */ = {
 			isa = PBXGroup;
 			children = (
+				465CE669172323A800E2C599 /* README.md */,
 				8D4129570BFB6AC400396206 /* Credits.rtf */,
 				8D4129AE0BFB6C7600396206 /* Carbon.framework */,
 				8D4129A40BFB6BCE00396206 /* libX11.dylib */,
@@ -299,6 +302,7 @@
 				8D5D33FD0BFB6E2E000F47D5 /* osx2x.icns in Resources */,
 				8D5D34160BFB6EBC000F47D5 /* osx2xhelp in Resources */,
 				4C3CBC8A1030BD1E00B55A3E /* Preferences.nib in Resources */,
+				465CE66A172323A800E2C599 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
