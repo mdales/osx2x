@@ -729,7 +729,9 @@ const static NSString* OXHostNameKeyList[5] = {@"HostName", @"HostName1", @"Host
 {
     if (pn.lowLongOfPSN != kNoProcess)
     {
-        SetFrontProcess(&pn);
+        // Restore the front process, but take care not to change the
+        // window order any more than neccessary.
+        SetFrontProcessWithOptions(&pn, kSetFrontProcessFrontWindowOnly);
         pn.lowLongOfPSN = pn.highLongOfPSN = kNoProcess;
     }
 }
